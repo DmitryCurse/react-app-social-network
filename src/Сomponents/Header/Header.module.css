@@ -1,0 +1,50 @@
+.header{
+  grid-area: h;
+}
+
+.header img{
+  width: 65%;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.loginBlock{
+  border: 2px solid #6b6a6a;
+  padding: 5px;
+  border-radius: 5px;
+  position: fixed;
+  right: 1%;
+  top: 2%;
+}
+
+.loginBlock div{
+  font-size: 14px;
+}
+
+.loginBlock a{
+  color: #0404cb;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all .3s ease;
+}
+
+
+.loginBlock a:hover{
+  color: #19d8e0;
+  transition: all .3s ease;
+}
+
+.button{
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 4px;
+  border: none;
+  background-color: #0404cb;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 11px;
+}

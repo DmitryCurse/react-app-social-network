@@ -1,0 +1,33 @@
+.item img{
+  height: 50px!important;
+  width: 50px!important;
+  border-radius: 50%!important;
+  border: none!important;
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.item{
+  color: rgb(34, 100, 133);
+  font-size: 17px;
+}
+
+.likes{
+  font-weight: 550;
+  color: rgb(206, 10, 33);
+}
+
+.postItem{
+  margin-top: 10px;
+}
+
+.postItem img{
+  width: 50px!important;
+  height: 25px!important;
+}
+
+.likes{
+
+}
