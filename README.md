@@ -4,7 +4,7 @@
 
 Authorization and other functional works.
 For test use:
-Link: https://dmitrycurse.github.io/login
+Link: https://dmitrycurse.github.io/react-app-social-network
 Email: free@samuraijs.com
 Password: free
 
