@@ -1,0 +1,48 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+
+.paddings{
+    padding-right: 10px;
+}
+
+textarea{
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+input{
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 180px;
+}
+
+.contact{
+    margin-bottom: 10px;
+}
+
+.button{
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 5px;
+    border: none;
+    background-color: #0404cb;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 60px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+

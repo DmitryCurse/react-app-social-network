@@ -1,35 +1,37 @@
-.avatarItem{
-  display: flex;
+.avatarItem {
+    display: flex;
 }
 
-.avatarItem img{
-  width: 80px;
-  height: 80px;
-  margin-bottom: 10px;
-  position: relative;
-  bottom: 20px;
-  margin-right: 5px;
+.aboutMe{
+    width: 180px;
+    text-align: center;
 }
 
-.avatarName{
-  margin-top: 20px;
+.avatarItem img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
 }
 
-.avatarDescription{
-  position: relative;
-  left: 4px;
-  font-weight: 600;
-  color: #000000;
+.avatarDescription {
+    font-weight: 600;
+    color: #000000;
 }
 
-.input{
-  box-sizing: border-box;
-  padding: 12px;
-  border-radius: 6px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
-  height: 10px;
-  resize: none;
-  border: 2px solid black;
-  font-size: 14px;
-  font-weight: 550;
+.changePhoto {
+    margin-bottom: 5px;
 }
+
+.contacts {
+    margin-left: 5px;
+}
+
+.paddings {
+    padding: 3px 0;
+}
+
+.block{
+    display: grid;
+    grid-template-columns: 150px 180px 300px;
+}
+
