@@ -1,4 +1,4 @@
-.input{
+.input {
     box-sizing: border-box;
     padding: 12px;
     border-radius: 6px;
@@ -11,18 +11,17 @@
     margin: 4px 0;
 }
 
-.remember{
+.remember {
     font-weight: bold;
     margin-top: 5px;
-
 }
 
-.buttonBlock{
+.buttonBlock {
     margin-left: 55px;
     margin-top: 10px;
 }
 
-.button{
+.button {
     appearance: none;
     -webkit-appearance: none;
     padding: 8px 10px;
@@ -35,3 +34,10 @@
     cursor: pointer;
     opacity: 0.8;
 }
+
+.captchaImg {
+    width: 200px !important;
+    height: 200px !important;
+    display: flex;
+}
+
