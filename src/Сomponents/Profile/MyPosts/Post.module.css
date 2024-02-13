@@ -1,16 +1,21 @@
+.imgPost{
+  position: relative!important;
+  top: 35px!important;
+}
+
 .item img{
-  height: 50px!important;
-  width: 50px!important;
-  border-radius: 50%!important;
-  border: none!important;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
   position: relative;
-  top: 6px;
+  top: 20px;
   margin-right: 10px;
   cursor: pointer;
 }
 
 .item{
-  color: rgb(34, 100, 133);
+  color: black;
   font-size: 17px;
 }
 
@@ -24,10 +29,42 @@
 }
 
 .postItem img{
-  width: 50px!important;
-  height: 25px!important;
+  width: 50px;
+  height: 25px;
+  position: relative;
+  top: 25px;
 }
 
-.likes{
+.posts {
+  margin-top: 10px;
+  font-weight: 550;
+}
 
+.textarea {
+  max-width: 100%;
+  height: auto;
+  min-height: 32px;
+  line-height: 1.5714285714285714;
+  vertical-align: bottom;
+  transition: all .3s,height 0s;
+  resize: vertical;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 4px 11px;
+  color: rgba(0,0,0,.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  position: relative;
+  display: inline-block;
+  width: 35%;
+  min-width: 0;
+  background-color: #fff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+  transition: all .2s;
 }

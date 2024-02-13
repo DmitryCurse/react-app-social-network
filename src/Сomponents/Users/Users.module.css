@@ -1,13 +1,10 @@
-.users{
+.users {
     position: relative;
     top: 20px;
 }
 
-.button{
-    position: relative;
-    top: 20px;
+img {
+    width: 50px;
+    height: 50px;
     margin-bottom: 20px;
 }
-
-
-
